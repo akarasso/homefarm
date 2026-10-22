@@ -1,0 +1,31 @@
+# Secrets (WiFi, MQTT, API) — ne jamais committer
+secrets.yaml
+secrets.h
+*.secret
+.env
+
+# PlatformIO / ESP-IDF / ESPHome
+.pio/
+build/
+sdkconfig.old
+.esphome/
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+\#auto_saved_files\#
+
+# Slicer / 3D (les gcode sont propres à une imprimante)
+*.gcode
+*.bgcode
+
+# Python / Node
+__pycache__/
+.venv/
+node_modules/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

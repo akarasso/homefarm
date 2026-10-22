@@ -1,0 +1,3 @@
+# Outils
+
+Scripts utilitaires : calculateur de solution nutritive, conversion EC/PPM, génération des STL, validation des fiches cultures…
